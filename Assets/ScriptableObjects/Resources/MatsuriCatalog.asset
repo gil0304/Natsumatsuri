@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1566038fe56041369213349534f918d, type: 3}
+  m_Name: MatsuriCatalog
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.MatsuriCatalog
+  Balance: {fileID: 11400000, guid: 0a780d99a4f52452cb2b7066f971d266, type: 2}
+  Stalls:
+  - {fileID: 11400000, guid: f0188e8ada836471fb3f0192b327277f, type: 2}
+  - {fileID: 11400000, guid: 081c55aa225b9439e8d6a7f7d24e09d3, type: 2}
+  - {fileID: 11400000, guid: 4c6e9d1ee08d24b47b51c318a5d2288e, type: 2}
+  - {fileID: 11400000, guid: 7fa7b27df864d42b89945f05330a4021, type: 2}
+  - {fileID: 11400000, guid: 984bdec25e7034f08a393de3384cacb0, type: 2}
+  - {fileID: 11400000, guid: 06ca0188b145f4ef6b9e9aae57f9c879, type: 2}
+  - {fileID: 11400000, guid: 21fab3bd6905845648cba374dedb50e4, type: 2}
+  - {fileID: 11400000, guid: c0d9092ca342541eaa596eaa2b17bc00, type: 2}
+  - {fileID: 11400000, guid: 4feebc8f28a4e4256b3a10292ca7154a, type: 2}
+  - {fileID: 11400000, guid: 99e0ef652dc2141f59f8714e45c425af, type: 2}
+  - {fileID: 11400000, guid: ed200e09961de408bba18fb879f3d461, type: 2}
+  Facilities:
+  - {fileID: 11400000, guid: 6408c71a1a9124cdcbb5af506195c2b3, type: 2}
+  - {fileID: 11400000, guid: e8205105d62f945e0be206bc3c33e367, type: 2}
+  - {fileID: 11400000, guid: ce167259b56b44b7c99a23182c0c614f, type: 2}
+  - {fileID: 11400000, guid: f92d1ed3fafec4ec1a3abe2b807bd953, type: 2}
+  - {fileID: 11400000, guid: 2948d06144d644d9db8cb1040b1daada, type: 2}
+  - {fileID: 11400000, guid: 03dd4d8fe84414173994dd968272b141, type: 2}
+  - {fileID: 11400000, guid: b1347d696d9474186a7c8ec22c5be0f0, type: 2}
+  - {fileID: 11400000, guid: 5e74871bb816545f1940a119f4264b5b, type: 2}
+  - {fileID: 11400000, guid: cadfbace72c974402b6292fad0af7855, type: 2}
+  - {fileID: 11400000, guid: 28d9c95b105714710b8d962fa9bbaab8, type: 2}
+  Decorations:
+  - {fileID: 11400000, guid: 271a5a0b5063c4cbe868d88a97349e20, type: 2}
+  - {fileID: 11400000, guid: 538bf0dc1d17d4eb191a617904f96930, type: 2}
+  - {fileID: 11400000, guid: ccee19dde3f40493f817e4a65a5b7f4f, type: 2}
+  - {fileID: 11400000, guid: 4a6d75bc1119b4e2a99a371f1dc625c4, type: 2}
+  - {fileID: 11400000, guid: f8c12bf7a515e4609bbd88dce51a3c04, type: 2}
+  - {fileID: 11400000, guid: d11ea43104039454692d384abc26df4b, type: 2}
+  - {fileID: 11400000, guid: 7fd5284d7a1794bcc9db18cad584f749, type: 2}
+  Events:
+  - {fileID: 11400000, guid: 6f3aef25de7ae4fd59a879e68ff8e8e0, type: 2}
+  - {fileID: 11400000, guid: 3aae2c080ea55448b87cef2a42414c46, type: 2}
+  - {fileID: 11400000, guid: b2a0cd161826c4f9da3f3a2c1d2129fc, type: 2}
+  Archetypes:
+  - {fileID: 11400000, guid: d65e2f03a1f1440f89b4985f1b9e50e5, type: 2}
+  - {fileID: 11400000, guid: 767d99d2e23534799b09ad75c3c3e62e, type: 2}
+  - {fileID: 11400000, guid: 8d12143284c134ec08e038b303e0f255, type: 2}
+  - {fileID: 11400000, guid: 1b646f832d79f4b828cae588975cbf90, type: 2}
+  - {fileID: 11400000, guid: e1ac5beff19764375a79ed282f6e3b4a, type: 2}
+  GroundMinX: -60
+  GroundMaxX: 60
+  GroundMinZ: -60
+  GroundMaxZ: 60

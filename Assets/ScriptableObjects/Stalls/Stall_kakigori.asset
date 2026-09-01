@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2931e72b230a4b88b41335e6f9c4c83, type: 3}
+  m_Name: Stall_kakigori
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.StallData
+  Id: kakigori
+  DisplayName: "\u304B\u304D\u6C37"
+  Aliases:
+  - "\u304B\u304D\u3054\u304A\u308A"
+  - "\u30AB\u30AD\u6C37"
+  - "\u30AB\u30AD\u30B4\u30AA\u30EA"
+  - "\u63BB\u304D\u6C37"
+  - "\u6C37"
+  - kakigori
+  - "\u3053\u304A\u308A"
+  Category: 0
+  Prefab: {fileID: 0}
+  VisualRecipe: {fileID: 11400000, guid: b40edf4fc445741749d015fff5d7fe51, type: 2}
+  BuildCost: 90000
+  DefaultPrice: 400
+  MinPrice: 150
+  MaxPrice: 1000
+  ServiceTime: 5
+  Capacity: 8
+  MaxQueueLength: 26
+  BasePopularity: 72
+  SatisfactionValue: 20
+  HungerRelief: 18
+  FunRelief: 10
+  EnergyCost: 2
+  Ambience: 2
+  HasSteam: 0

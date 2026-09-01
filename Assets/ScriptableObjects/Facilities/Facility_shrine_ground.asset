@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e6af1c9599840b19aff40b6a71c43d, type: 3}
+  m_Name: Facility_shrine_ground
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.FacilityData
+  Id: shrine_ground
+  DisplayName: "\u795E\u793E"
+  Aliases:
+  - "\u3058\u3093\u3058\u3083"
+  - "\u304A\u793E"
+  - "\u304A\u3084\u3057\u308D"
+  - "\u304A\u5BAE"
+  - "\u304A\u307F\u3084"
+  - "\u53C2\u62DD\u6240"
+  - "\u793E\u6BBF"
+  - "\u672C\u6BBF"
+  - shrine
+  - shrine_ground
+  Prefab: {fileID: 0}
+  Visual: 0
+  BuildCost: 200000
+  Effect: 7
+  EffectRadius: 16
+  EffectStrength: 90
+  Capacity: 8

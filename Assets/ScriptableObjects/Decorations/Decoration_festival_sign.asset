@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc20e41258a049aa88f9b48b9b58d30, type: 3}
+  m_Name: Decoration_festival_sign
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.DecorationData
+  Id: festival_sign
+  DisplayName: "\u590F\u796D\u308A\u770B\u677F"
+  Aliases:
+  - "\u306A\u3064\u307E\u3064\u308A\u770B\u677F"
+  - "\u590F\u796D\u308A"
+  - "\u796D\u308A\u770B\u677F"
+  - "\u5927\u770B\u677F"
+  - "\u30A2\u30FC\u30C1"
+  - festivalsign
+  Prefab: {fileID: 0}
+  Visual: 6
+  MainColor: {r: 0.9607843, g: 0.7607843, b: 0.2901961, a: 1}
+  SwaysInWind: 0
+  BuildCost: 20000
+  Effect: 2
+  EffectRadius: 25
+  AmbienceValue: 5
+  EmitsLight: 0
+  LightColor: {r: 1, g: 0.8156863, b: 0.5411765, a: 1}
+  LightIntensity: 0
+  LightRange: 0

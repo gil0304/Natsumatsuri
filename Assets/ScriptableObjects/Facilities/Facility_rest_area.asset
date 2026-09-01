@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e6af1c9599840b19aff40b6a71c43d, type: 3}
+  m_Name: Facility_rest_area
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.FacilityData
+  Id: rest_area
+  DisplayName: "\u4F11\u61A9\u6240"
+  Aliases:
+  - "\u304D\u3085\u3046\u3051\u3044\u3058\u3087"
+  - "\u4F11\u61A9\u5834"
+  - "\u4F11\u61A9\u6240"
+  - "\u4F11\u61A9\u30B9\u30DA\u30FC\u30B9"
+  - "\u4F11\u307F\u51E6"
+  - "\u4F11\u61A9\u51E6"
+  - "\u7E01\u53F0"
+  - "\u30D9\u30F3\u30C1\u5E83\u5834"
+  - rest
+  - rest_area
+  - restarea
+  Prefab: {fileID: 0}
+  Visual: 0
+  BuildCost: 60000
+  Effect: 0
+  EffectRadius: 10
+  EffectStrength: 60
+  Capacity: 12

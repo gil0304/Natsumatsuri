@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc20e41258a049aa88f9b48b9b58d30, type: 3}
+  m_Name: Decoration_stall_light
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.DecorationData
+  Id: stall_light
+  DisplayName: "\u5C4B\u53F0\u7528\u30E9\u30A4\u30C8"
+  Aliases:
+  - "\u5C4B\u53F0\u30E9\u30A4\u30C8"
+  - "\u30E9\u30A4\u30C8"
+  - "\u3089\u3044\u3068"
+  - "\u7167\u660E"
+  - "\u96FB\u706F"
+  - "\u4F5C\u696D\u706F"
+  - light
+  - stalllight
+  Prefab: {fileID: 0}
+  Visual: 5
+  MainColor: {r: 0.84705883, g: 0.8352941, b: 0.8, a: 1}
+  SwaysInWind: 0
+  BuildCost: 6000
+  Effect: 1
+  EffectRadius: 12
+  AmbienceValue: 1
+  EmitsLight: 1
+  LightColor: {r: 1, g: 0.8156863, b: 0.5411765, a: 1}
+  LightIntensity: 950
+  LightRange: 15

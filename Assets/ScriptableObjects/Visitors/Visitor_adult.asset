@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6fc8a8ade4fe41248dcb9d4db701738, type: 3}
+  m_Name: Visitor_adult
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.VisitorArchetype
+  Id: adult
+  DisplayName: "\u5927\u4EBA"
+  SpawnWeight: 1.6
+  Money:
+    Min: 3000
+    Max: 10000
+  Hunger:
+    Min: 55
+    Max: 100
+  Fun:
+    Min: 15
+    Max: 50
+  Energy:
+    Min: 55
+    Max: 95
+  WalkingSpeed:
+    Min: 1.05
+    Max: 1.45
+  Patience:
+    Min: 50
+    Max: 88
+  FireworksInterest: 58
+  PreferenceFood:
+  - StallId: yakisoba
+    Value: 88
+  - StallId: takoyaki
+    Value: 84
+  - StallId: frankfurt
+    Value: 78
+  - StallId: kakigori
+    Value: 62
+  - StallId: ringo_ame
+    Value: 45
+  - StallId: wataame
+    Value: 40
+  PreferenceGame:
+  - StallId: shateki
+    Value: 56
+  - StallId: kingyosukui
+    Value: 42
+  - StallId: katanuki
+    Value: 35
+  - StallId: yoyo_tsuri
+    Value: 30
+  - StallId: superball
+    Value: 28
+  DefaultFoodPreference: 76
+  DefaultGamePreference: 32
+  TargetVisitCount: {x: 2, y: 5}
+  PriceSensitivity:
+    Min: 0.7
+    Max: 1.2
+  BodyHeight:
+    Min: 1.56
+    Max: 1.84
+  OutfitColors:
+  - {r: 0.09411765, g: 0.12941177, b: 0.24705882, a: 1}
+  - {r: 0.16470589, g: 0.20784314, b: 0.34117648, a: 1}
+  - {r: 0.24313726, g: 0.2901961, b: 0.3372549, a: 1}
+  - {r: 0.9098039, g: 0.8862745, b: 0.8235294, a: 1}
+  - {r: 0.47843137, g: 0.41568628, b: 0.32156864, a: 1}
+  - {r: 0.29803923, g: 0.41960785, b: 0.2901961, a: 1}
+  - {r: 0.41960785, g: 0.23137255, b: 0.23137255, a: 1}
+  SkinColors:
+  - {r: 0.96862745, g: 0.8627451, b: 0.7764706, a: 1}
+  - {r: 0.9411765, g: 0.8039216, b: 0.6862745, a: 1}
+  - {r: 0.8862745, g: 0.7137255, b: 0.57254905, a: 1}
+  - {r: 0.8, g: 0.6039216, b: 0.4509804, a: 1}
+  - {r: 0.68235296, g: 0.49411765, b: 0.36078432, a: 1}
+  - {r: 0.54901963, g: 0.38431373, b: 0.2784314, a: 1}
+  HairColors:
+  - {r: 0.09019608, g: 0.078431375, b: 0.05882353, a: 1}
+  - {r: 0.14117648, g: 0.105882354, b: 0.07058824, a: 1}
+  - {r: 0.22745098, g: 0.15294118, b: 0.09411765, a: 1}
+  - {r: 0.3529412, g: 0.32941177, b: 0.3137255, a: 1}
+  - {r: 0.5411765, g: 0.52156866, b: 0.5019608, a: 1}

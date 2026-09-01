@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e6af1c9599840b19aff40b6a71c43d, type: 3}
+  m_Name: Facility_entrance
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.FacilityData
+  Id: entrance
+  DisplayName: "\u5165\u308A\u53E3"
+  Aliases:
+  - "\u5165\u53E3"
+  - "\u3044\u308A\u3050\u3061"
+  - "\u5165\u5834\u53E3"
+  - "\u6B63\u9580"
+  - "\u30B2\u30FC\u30C8"
+  - entrance
+  - gate
+  - in
+  Prefab: {fileID: 0}
+  Visual: 3
+  BuildCost: 0
+  Effect: 3
+  EffectRadius: 6
+  EffectStrength: 0
+  Capacity: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e6af1c9599840b19aff40b6a71c43d, type: 3}
+  m_Name: Facility_signboard
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.FacilityData
+  Id: signboard
+  DisplayName: "\u6848\u5185\u677F"
+  Aliases:
+  - "\u3042\u3093\u306A\u3044\u3070\u3093"
+  - "\u6848\u5185"
+  - "\u6848\u5185\u770B\u677F"
+  - "\u770B\u677F"
+  - "\u5730\u56F3"
+  - "\u30DE\u30C3\u30D7"
+  - signboard
+  - sign
+  - map
+  Prefab: {fileID: 0}
+  Visual: 4
+  BuildCost: 15000
+  Effect: 5
+  EffectRadius: 18
+  EffectStrength: 20
+  Capacity: 0

@@ -1,0 +1,246 @@
+/*
+ * MATSURI.exe — UI スタイル (§9 / §64)
+ *
+ * 方針: 「和 × モダンゲームUI」。教育ソフト風・Scratch 風にはしない。
+ *   背景 = 黒〜濃紺 (#0B0E1A 〜 #10131F)
+ *   アクセント = 提灯の赤 (#E23B2E) / 祭りの黄 (#F5C24A)
+ *   コードエディターは VS Code 風。
+ *
+ * 置き場所:
+ *   Assets/UI/Styles/Resources/matsuri.uss
+ *   実行時に Resources.Load<StyleSheet>("matsuri") で読むため Resources 配下に置く。
+ *   （以前は Assets/UI/Styles/ 直下にあり、実行時に読み込めず警告が出ていた）
+ *
+ * 注意:
+ *   UIManager は主要スタイルを C# (MatsuriUiTheme) でも指定している。
+ *   UI Toolkit ではインラインスタイルが USS より優先されるため、
+ *   このファイルは「C# で指定していない部分」と「状態表現」を担う補助レイヤである。
+ *   この USS が読み込めなくても画面は成立する。
+ */
+
+/* ── ルート ───────────────────────────────────────────── */
+
+.matsuri-root {
+    -unity-font-style: normal;
+    font-size: 14px;
+    color: rgb(230, 234, 245);
+}
+
+/* ── 上部バー (§9) ────────────────────────────────────── */
+
+.matsuri-hud {
+    background-color: rgba(8, 11, 20, 0.9);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(35, 42, 61);
+}
+
+.matsuri-hud__stat {
+    border-left-width: 2px;
+    border-left-color: rgb(35, 42, 61);
+    padding-left: 12px;
+}
+
+/* ── 汎用パネル ───────────────────────────────────────── */
+
+.matsuri-panel {
+    background-color: rgba(16, 19, 31, 0.92);
+    border-width: 1px;
+    border-color: rgb(35, 42, 61);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.matsuri-panel__title {
+    letter-spacing: 3px;
+    color: rgb(138, 147, 172);
+    -unity-font-style: bold;
+}
+
+/* ── コードエディター (§10) ───────────────────────────── */
+
+.matsuri-editor {
+    background-color: rgba(14, 17, 25, 0.95);
+    border-width: 1px;
+    border-color: rgb(35, 42, 61);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.matsuri-editor__header {
+    background-color: rgb(10, 13, 22);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(35, 42, 61);
+}
+
+.matsuri-editor__gutter {
+    background-color: rgba(10, 13, 21, 0.95);
+    border-right-width: 1px;
+    border-right-color: rgb(35, 42, 61);
+}
+
+/*
+ * 重ね合わせ3層（ガター行 / コード行 / 入力層）の文字組をそろえる。
+ * 折り返しを禁止しないと 1 行が 2 行分の高さになり、行番号との対応が崩れる。
+ * はみ出した分は横スクロールで逃がす。
+ * 実際の値は C# (CodeEditorLayout.ApplyTextLayer) がインラインでも入れており、
+ * こちらはインラインが効かない経路のための保険。
+ */
+.matsuri-editor__line,
+.matsuri-editor__gutter-row,
+.matsuri-editor__gutter-row > *,
+.matsuri-editor__input,
+.matsuri-editor__input > *,
+.matsuri-editor__input .unity-base-text-field__input,
+.matsuri-editor__input .unity-text-element {
+    white-space: nowrap;
+    -unity-text-align: upper-left;
+    letter-spacing: 0;
+    word-spacing: 0;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-radius: 0;
+}
+
+/* 行要素は自分の高さでクリップする（はみ出して隣の行に被らせない） */
+.matsuri-editor__line,
+.matsuri-editor__gutter-row {
+    overflow: hidden;
+}
+
+.matsuri-editor__input,
+.matsuri-editor__input > *,
+.matsuri-editor__input .unity-base-text-field__input,
+.matsuri-editor__input .unity-text-element {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* キャレットは祭りの黄。文字色は C# 側で透明にしている。 */
+.matsuri-editor__input,
+.matsuri-editor__input .unity-base-text-field__input {
+    --unity-cursor-color: rgb(245, 194, 74);
+}
+
+/* ── コード補完 (§43) ────────────────────────────────── */
+
+.matsuri-completion {
+    background-color: rgba(20, 26, 40, 0.98);
+    border-width: 1px;
+    border-color: rgb(57, 67, 94);
+    border-radius: 6px;
+}
+
+.matsuri-completion__row:hover {
+    background-color: rgb(30, 39, 61);
+}
+
+/* ── エラー表示 (§41 / §42) ──────────────────────────── */
+
+.matsuri-diagnostics {
+    background-color: rgba(16, 19, 31, 0.92);
+    border-width: 1px;
+    border-color: rgb(35, 42, 61);
+    border-radius: 12px;
+}
+
+.matsuri-diagnostics__row {
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(26, 32, 50);
+}
+
+/* ── ボタン ───────────────────────────────────────────── */
+
+.matsuri-button {
+    -unity-font-style: bold;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(57, 67, 94);
+    background-color: rgb(27, 33, 51);
+    color: rgb(230, 234, 245);
+    transition-property: background-color;
+    transition-duration: 0.12s;
+}
+
+.matsuri-button:active {
+    background-color: rgb(37, 45, 68);
+}
+
+.matsuri-button--primary {
+    background-color: rgb(226, 59, 46);
+    border-color: rgb(242, 99, 79);
+    color: rgb(255, 243, 236);
+}
+
+.matsuri-button--primary:active {
+    background-color: rgb(200, 48, 36);
+}
+
+.matsuri-button:disabled {
+    opacity: 0.38;
+}
+
+/* ── 下部バー ─────────────────────────────────────────── */
+
+.matsuri-bottombar {
+    background-color: rgba(8, 11, 20, 0.9);
+    border-top-width: 1px;
+    border-top-color: rgb(35, 42, 61);
+}
+
+/* ── チュートリアル (§45) ────────────────────────────── */
+
+.matsuri-tutorial__card {
+    background-color: rgba(20, 24, 38, 0.97);
+    border-width: 1px;
+    border-color: rgb(74, 51, 32);
+    border-left-width: 3px;
+    border-left-color: rgb(245, 194, 74);
+    border-radius: 12px;
+}
+
+/* ── 結果画面 (§36) ──────────────────────────────────── */
+
+.matsuri-result {
+    background-color: rgba(5, 8, 15, 0.88);
+}
+
+.matsuri-result__card {
+    background-color: rgba(14, 18, 32, 0.98);
+    border-width: 1px;
+    border-color: rgb(46, 54, 80);
+    border-radius: 16px;
+}
+
+/* ── スクロールバー（VS Code 風に細く目立たせない） ──── */
+
+.unity-scroller {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.unity-scroller--vertical {
+    width: 10px;
+}
+
+.unity-scroller--horizontal {
+    height: 10px;
+}
+
+.unity-scroller .unity-base-slider__tracker {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.unity-scroller .unity-base-slider__dragger {
+    background-color: rgb(45, 54, 78);
+    border-width: 0;
+    border-radius: 5px;
+}
+
+.unity-scroller .unity-base-slider__dragger:hover {
+    background-color: rgb(66, 78, 108);
+}
+
+.unity-scroller .unity-repeat-button {
+    display: none;
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Matsuri.Editor",
+    "rootNamespace": "Matsuri.EditorTools",
+    "references": [
+        "Matsuri.Runtime",
+        "Matsuri.Script",
+        "Unity.InputSystem",
+        "Unity.Cinemachine",
+        "Unity.Cinemachine.Editor",
+        "Unity.AI.Navigation",
+        "Unity.AI.Navigation.Editor",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Core.Editor",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Editor",
+        "Unity.VisualEffectGraph.Runtime",
+        "Unity.Mathematics",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

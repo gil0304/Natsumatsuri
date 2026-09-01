@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2931e72b230a4b88b41335e6f9c4c83, type: 3}
+  m_Name: Stall_kingyosukui
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.StallData
+  Id: kingyosukui
+  DisplayName: "\u91D1\u9B5A\u3059\u304F\u3044"
+  Aliases:
+  - "\u304D\u3093\u304E\u3087\u3059\u304F\u3044"
+  - "\u30AD\u30F3\u30AE\u30E7\u30B9\u30AF\u30A4"
+  - "\u91D1\u9B5A\u63AC\u3044"
+  - "\u91D1\u9B5A"
+  - "\u304D\u3093\u304E\u3087"
+  - kingyo
+  - kingyosukui
+  Category: 1
+  Prefab: {fileID: 0}
+  VisualRecipe: {fileID: 11400000, guid: e41719264b6f74edaae46b960717f233, type: 2}
+  BuildCost: 150000
+  DefaultPrice: 300
+  MinPrice: 100
+  MaxPrice: 800
+  ServiceTime: 12
+  Capacity: 6
+  MaxQueueLength: 20
+  BasePopularity: 76
+  SatisfactionValue: 28
+  HungerRelief: 2
+  FunRelief: 40
+  EnergyCost: 6
+  Ambience: 3
+  HasSteam: 0

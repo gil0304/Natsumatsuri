@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff83ece2b6a542ba88b51ddb33799a3, type: 3}
+  m_Name: StallVisual_kakigori
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.StallVisualRecipe
+  Width: 3
+  Depth: 2.1
+  Height: 2.4
+  CounterHeight: 0.96
+  Roof: 2
+  RoofColor: {r: 0.24705882, g: 0.6627451, b: 0.8392157, a: 1}
+  RoofStripeColor: {r: 0.9607843, g: 0.9843137, b: 1, a: 1}
+  StripedRoof: 1
+  NorenColor: {r: 0.36078432, g: 0.7411765, b: 0.8784314, a: 1}
+  NorenText: "\u6C37"
+  NorenSlits: 3
+  SignBoardColor: {r: 0.91764706, g: 0.9647059, b: 0.9882353, a: 1}
+  SignTextColor: {r: 0.07058824, g: 0.3137255, b: 0.49803922, a: 1}
+  WoodColor: {r: 0.5411765, g: 0.42352942, b: 0.30588236, a: 1}
+  CounterColor: {r: 0.7019608, g: 0.78039217, b: 0.80784315, a: 1}
+  BulbCount: 5
+  BulbColor: {r: 0.8627451, g: 0.9411765, b: 1, a: 1}
+  LanternCount: 2
+  LanternColor: {r: 0.43529412, g: 0.78039217, b: 0.9098039, a: 1}
+  LightIntensity: 820
+  Prop: 3
+  ProductColor: {r: 0.54901963, g: 0.8627451, b: 0.9411765, a: 1}
+  QueuePointCount: 9
+  QueueSpacing: 0.72

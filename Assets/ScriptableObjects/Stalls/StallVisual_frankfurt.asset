@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff83ece2b6a542ba88b51ddb33799a3, type: 3}
+  m_Name: StallVisual_frankfurt
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.StallVisualRecipe
+  Width: 2.9
+  Depth: 2
+  Height: 2.42
+  CounterHeight: 1.04
+  Roof: 1
+  RoofColor: {r: 0.54901963, g: 0.22745098, b: 0.1254902, a: 1}
+  RoofStripeColor: {r: 0.9098039, g: 0.7882353, b: 0.36078432, a: 1}
+  StripedRoof: 1
+  NorenColor: {r: 0.61960787, g: 0.27058825, b: 0.13333334, a: 1}
+  NorenText: "\u30D5\u30E9\u30F3\u30AF"
+  NorenSlits: 3
+  SignBoardColor: {r: 0.9372549, g: 0.8784314, b: 0.68235296, a: 1}
+  SignTextColor: {r: 0.29803923, g: 0.14117648, b: 0.05882353, a: 1}
+  WoodColor: {r: 0.34117648, g: 0.21960784, b: 0.12156863, a: 1}
+  CounterColor: {r: 0.47843137, g: 0.3254902, b: 0.1882353, a: 1}
+  BulbCount: 6
+  BulbColor: {r: 1, g: 0.80784315, b: 0.5254902, a: 1}
+  LanternCount: 1
+  LanternColor: {r: 0.9411765, g: 0.5411765, b: 0.20392157, a: 1}
+  LightIntensity: 900
+  Prop: 6
+  ProductColor: {r: 0.68235296, g: 0.3254902, b: 0.1882353, a: 1}
+  QueuePointCount: 8
+  QueueSpacing: 0.74

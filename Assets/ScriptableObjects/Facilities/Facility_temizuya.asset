@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e6af1c9599840b19aff40b6a71c43d, type: 3}
+  m_Name: Facility_temizuya
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.FacilityData
+  Id: temizuya
+  DisplayName: "\u624B\u6C34\u820E"
+  Aliases:
+  - "\u3066\u307F\u305A\u3084"
+  - "\u3061\u3087\u3046\u305A\u3084"
+  - "\u624B\u6C34"
+  - "\u6C34\u76E4"
+  - temizuya
+  - chozuya
+  Prefab: {fileID: 0}
+  Visual: 0
+  BuildCost: 40000
+  Effect: 8
+  EffectRadius: 6
+  EffectStrength: 35
+  Capacity: 4

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc20e41258a049aa88f9b48b9b58d30, type: 3}
+  m_Name: Decoration_nobori
+  m_EditorClassIdentifier: Matsuri.Runtime::Matsuri.Data.DecorationData
+  Id: nobori
+  DisplayName: "\u306E\u307C\u308A"
+  Aliases:
+  - "\u5E5F"
+  - "\u30CE\u30DC\u30EA"
+  - "\u306E\u307C\u308A\u65D7"
+  - "\u65D7"
+  - "\u306F\u305F"
+  - nobori
+  - flag
+  Prefab: {fileID: 0}
+  Visual: 1
+  MainColor: {r: 0.9490196, g: 0.9372549, b: 0.89411765, a: 1}
+  SwaysInWind: 1
+  BuildCost: 4000
+  Effect: 0
+  EffectRadius: 6
+  AmbienceValue: 2
+  EmitsLight: 0
+  LightColor: {r: 1, g: 0.8156863, b: 0.5411765, a: 1}
+  LightIntensity: 0
+  LightRange: 0
